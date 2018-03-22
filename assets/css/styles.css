@@ -1,0 +1,36 @@
+h1 {
+	text-align: center;
+	color: darkblue;
+}
+
+body {
+	background-image: url(" file:///C:/Users/uokon/Desktop/Bootcamp/HW-5/TriviaGame/assets/images/sbb2.gif ");
+	background-color: darkgreen;
+}
+input[type=text] {
+		width: 130px;
+		-webkit-transition: width 0.4s ease-in-out;
+		transition: width 0.4s ease-in-out;
+	}
+
+	/* When the input field gets focus, change its width to 100% */
+	input[type=text]:focus {
+		width: 100%;
+	}
+
+.header {
+	height: 6em;
+}
+
+.container {
+	background-color: yellow;
+	width: 90%;
+}
+
+#questions {
+	color: orange;
+}
+
+#options {
+	color: darkgreen;
+}
